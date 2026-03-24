@@ -26,24 +26,23 @@ const frontendSkills = [
   { name: "JavaScript", value: 90 },
   { name: "Tailwind CSS", value: 88 },
   { name: "Mantine UI", value: 85 },
+  { name: "API Integration", value: 90 },
 ];
 
 const backendSkills = [
-  { name: "Laravel (PHP)", value: 80 },
-  { name: "REST APIs", value: 85 },
-  { name: "PostgreSQL", value: 75 },
-  { name: "MySQL", value: 80 },
-  { name: "Authentication", value: 78 },
-  { name: "API Integration", value: 88 },
+  { name: "Node.js", value: 55 },
+  { name: "REST APIs", value: 55 },
+  { name: "PostgreSQL", value: 70 },
+  { name: "MySQL", value: 75 },
 ];
 
 const toolSkills = [
   { name: "Git & GitHub", value: 85 },
   { name: "VS Code", value: 92 },
-  { name: "Microsoft Azure", value: 75 },
   { name: "Postman", value: 88 },
+  { name: "Jira", value: 85 },
+  { name: "Confluence", value: 80 },
   { name: "Agile/Scrum", value: 82 },
-  { name: "Android Studio", value: 68 },
 ];
 
 const extras = [
