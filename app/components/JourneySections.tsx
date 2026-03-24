@@ -14,13 +14,14 @@ import { motion } from "framer-motion";
 import { IconBriefcase, IconCloud } from "@tabler/icons-react";
 
 const journey = [
+
   {
-    icon: IconBriefcase,
-    title: "Software Developer Intern — STL",
-    period: "Apr 2024 – Dec 2024",
+    icon: IconCloud,
+    title: "Software Developer — Prath Technology Pvt. Ltd.",
+    period: "Feb 2025 – Present",
     description:
-      "Contributed to the NMMS Odisha portal — fixed UI bugs, improved responsiveness, and assisted with API integration.",
-    tags: ["React.js", "REST APIs", "UI Fixes", "Agile"],
+      "Expanding into scalable frontend solutions and modern web architecture at Prath Technology.",
+    tags: ["React.js", "Next.js", "Scalable UI"],
   },
   {
     icon: IconBriefcase,
@@ -31,13 +32,14 @@ const journey = [
     tags: ["Next.js", "TypeScript", "Okta SSO", "Micro-Frontend"],
   },
   {
-    icon: IconCloud,
-    title: "Software Developer — Prath Technology Pvt. Ltd.",
-    period: "Feb 2025 – Present",
+    icon: IconBriefcase,
+    title: "Software Developer Intern — STL",
+    period: "Apr 2024 – Dec 2024",
     description:
-      "Expanding into scalable frontend solutions and modern web architecture at Prath Technology.",
-    tags: ["React.js", "Next.js", "Scalable UI"],
+      "Contributed to the NMMS Odisha portal — fixed UI bugs, improved responsiveness, and assisted with API integration.",
+    tags: ["React.js", "REST APIs", "UI Fixes", "Agile"],
   },
+
 ];
 
 export default function JourneySection() {

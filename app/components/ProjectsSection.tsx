@@ -375,18 +375,7 @@ export default function ProjectsSection() {
                     </div>
 
                     <Group>
-                      <Button
-                        size="sm"
-                        leftSection={<IconExternalLink size={15} />}
-                        variant="gradient"
-                        gradient={{ from: gradientFrom, to: gradientTo }}
-                        component="a"
-                        href={project.demo ?? "#"}
-                        target="_blank"
-                      >
-                        Live Demo
-                      </Button>
-
+                     
                       <Button
                         size="sm"
                         leftSection={<IconBrandGithub size={15} />}
