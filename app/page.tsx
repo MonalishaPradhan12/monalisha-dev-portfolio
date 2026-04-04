@@ -6,6 +6,7 @@ import JourneySection from "./components/JourneySections";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactSection from "./components/ContactSection";
 import FooterSections from "./components/FooterSections"
+import Chatbot from "./components/Chatbot";
 export default function HomePage() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function HomePage() {
      
       <ContactSection/>
       <FooterSections/>
+      <Chatbot/>
     </>
   );
 }
